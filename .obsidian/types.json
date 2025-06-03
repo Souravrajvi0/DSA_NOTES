@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "title": "text",
+    "Difficulty": "text",
+    "date": "date",
+    "last_reviewed": "date",
+    "date_started": "date",
+    "Status": "checkbox",
+    "time_spent": "multitext",
+    "Progress": "number",
+    "Notes": "checkbox"
+  }
+}

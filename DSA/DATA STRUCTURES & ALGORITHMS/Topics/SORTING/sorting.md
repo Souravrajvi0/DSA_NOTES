@@ -1,0 +1,15 @@
+ 
+
+[[BUBBLE SORT]]
+
+[[SELECTION SORT]]
+
+[[INSERTION SORT]]
+
+[[MERGE SORT]]
+
+[[QUICK SORT]]
+
+[[CYCLIC SORT]]
+
+[[HEAP SORT]]

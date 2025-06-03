@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "214ae7d026139c5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2750934996e2194",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "976b8404f9861b99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DAILY WORK/03-June-2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03-June-2025"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfa4abe423aa8fcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "78315ed00120b914",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0642ac0ec400bf6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4bba17bf4b7534a9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5921dab635c1b740",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0fbabd28a84e220b",
+    "type": "split",
+    "children": [
+      {
+        "id": "830c35b367999b0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8961ea10c62103b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DAILY WORK/21-October-2024.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 21-October-2024"
+            }
+          },
+          {
+            "id": "fbe0a9efe7cb4e86",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DAILY WORK/21-October-2024.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 21-October-2024"
+            }
+          },
+          {
+            "id": "0cbdb1d02613666b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c122d2c53db5441f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/GENERAL NOTES/LINKED LIST 1.1.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of LINKED LIST 1.1"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "976b8404f9861b99",
+  "lastOpenFiles": [
+    "DAILY WORK/30-May-2025.md",
+    "DAILY WORK/03-June-2025.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/GENERAL NOTES/BinarySearch1.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY TREES/CONCEPTS/HEIGHT UTILITY VARIATIONS.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY TREES/GENERAL NOTES/BINARY TREES 1.1.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY TREES/binary trees.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY SEARCH TREES/GENERAL NOTES/Binary Search Tree 1.1.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY SEARCH TREES/binary search tree.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/linkedlist.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/GENERAL NOTES/LINKED LIST 1.1.md",
+    "Templates/c++.md",
+    "Templates/CONCEPT TEMPLATE.md",
+    "Templates/SUMMARY TEMPLATE.md",
+    "Templates/DSA QUESTION TEMPLATE.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/PREFIX SUM/GENERAL NOTES/PREFIX SUM 1.1.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/PREFIX SUM/prefix sum.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/greedy.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/DP/DP.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/DIVIDE AND CONQUER/DIVIDE AND CONQUER.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BIT MANIPULATION/bit manipulation.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/binarySearch.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/PROBLEM SET",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/GENERAL NOTES",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/CONCEPTS",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/SEARCHING.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/BINARY SEARCH 2.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/BINARY SEARCH.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/BINARY SEARCH 2/LeetCode (2)/Untitled.md",
+    "BOOKS/The Greatness Mindset.md",
+    "BOOKS/Untitled",
+    "BOOKS",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/GENERAL NOTES",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/PROBLEM SET",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/CONCEPTS",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY SEARCH TREES/PROBLEM SET",
+    "Images/10. Bottom View of Binary Tree-20250109192114911.webp",
+    "Images/11. Right-Left View of Binary Tree-20250109165057934.webp",
+    "Images/8. Vertical Order Traversal of Binary Tree(Imp)-20250109151218130.webp",
+    "Images/8. Vertical Order Traversal of Binary Tree(Imp)-20250109151200575.webp",
+    "Images/8. Vertical Order Traversal of Binary Tree(Imp)-20250109151136270.webp",
+    "Images/8. Vertical Order Traversal of Binary Tree-20250109115434606.webp",
+    "Images/Rabin-Karp String Matching Algorithm-20250109105610856.webp",
+    "Images/Rabin-Karp String Matching Algorithm-20250109105542754.webp",
+    "Images/Rabin-Karp String Matching Algorithm-20250109105400063.webp",
+    "Images/Rabin-Karp String Matching Algorithm-20250109104552861.webp",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

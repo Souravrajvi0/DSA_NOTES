@@ -1,0 +1,5 @@
+---
+DS:
+  - Stack
+Difficulty: Easy
+---

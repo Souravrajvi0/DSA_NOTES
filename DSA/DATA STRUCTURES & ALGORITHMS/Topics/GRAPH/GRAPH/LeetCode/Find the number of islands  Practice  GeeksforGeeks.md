@@ -1,0 +1,8 @@
+---
+DS:
+  - Graph
+Date: 2024-08-30
+Difficulty: Medium
+Notes: YE MATRIX PAR BFS YA DFS K TYPE K SAWAL HAI// YAHAN MATRIX KA DATA KYA REPRSENT KRTA HAI
+Status: Done
+---

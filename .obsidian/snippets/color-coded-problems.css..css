@@ -1,0 +1,18 @@
+/* Important notes - Red color */
+.nav-file-title[data-path*="(Imp)"] {
+    color: #ff4d4d; /* Red color for important problems */
+    font-weight: bold;
+}
+
+/* Review notes - Yellow color */
+.nav-file-title[data-path*="(Mid)"] {
+    color: blue /* Purple color for review problems */
+   
+
+}
+
+/* Optional problems - Green color */
+.nav-file-title[data-path*="(Done)"] {
+    color: #4caf50; /* Green color for optional problems */
+}
+
