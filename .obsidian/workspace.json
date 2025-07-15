@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "976b8404f9861b99",
+            "id": "4060cdc7d117f808",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAILY WORK/03-June-2025.md",
+                "file": "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/CONCEPTS/BFS-DFS IN MATRIX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-June-2025"
+              "title": "BFS-DFS IN MATRIX"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#EASY",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "0fbabd28a84e220b",
@@ -145,9 +146,29 @@
               "icon": "lucide-list",
               "title": "Outline of LINKED LIST 1.1"
             }
+          },
+          {
+            "id": "c26ba822f703194f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "0e146f99763c7d6d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -163,57 +184,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "976b8404f9861b99",
+  "active": "4060cdc7d117f808",
   "lastOpenFiles": [
-    "DAILY WORK/30-May-2025.md",
-    "DAILY WORK/03-June-2025.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/GENERAL NOTES/BinarySearch1.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY TREES/CONCEPTS/HEIGHT UTILITY VARIATIONS.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY TREES/GENERAL NOTES/BINARY TREES 1.1.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY TREES/binary trees.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY SEARCH TREES/GENERAL NOTES/Binary Search Tree 1.1.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY SEARCH TREES/binary search tree.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/linkedlist.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/GENERAL NOTES/LINKED LIST 1.1.md",
-    "Templates/c++.md",
-    "Templates/CONCEPT TEMPLATE.md",
-    "Templates/SUMMARY TEMPLATE.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET/547. Number of ProvincesUntitled.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET/GFG-Connected Components in an Undirected Graph.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET/GFG -Find the number of islands.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET/994. Rotting Oranges.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET/733 Flood fill.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/CONCEPTS/BFS-DFS IN MATRIX.md",
+    "DAILY WORK/15-July-2025.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GENERAL NOTES/GRAPH 1.2.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GENERAL NOTES/GRAPH 1.1.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/CONCEPTS/BFS-DFS.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/CONCEPTS/DFS.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GENERAL NOTES/Untitled.md",
+    "Images/GRAPH 1.1-20250714124543306.webp",
+    "Images/GRAPH 1.1-20250714124457855.webp",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/ARRAY/GENERAL NOTES/ARRAY 1.md",
+    "DAILY WORK/14-July-2025.md",
     "Templates/DSA QUESTION TEMPLATE.md",
+    "Templates/SUMMARY TEMPLATE.md",
     "DSA/DATA STRUCTURES & ALGORITHMS/Topics/PREFIX SUM/GENERAL NOTES/PREFIX SUM 1.1.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/PREFIX SUM/prefix sum.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/greedy.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/DP/DP.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/DIVIDE AND CONQUER/DIVIDE AND CONQUER.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BIT MANIPULATION/bit manipulation.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/binarySearch.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/PROBLEM SET",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/GENERAL NOTES",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/CONCEPTS",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/SEARCHING.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/BINARY SEARCH 2.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/BINARY SEARCH.md",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/BINARY SEARCH/BINARY SEARCH 2/LeetCode (2)/Untitled.md",
-    "BOOKS/The Greatness Mindset.md",
-    "BOOKS/Untitled",
-    "BOOKS",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/GENERAL NOTES",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/PROBLEM SET",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GREEDY/CONCEPTS",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE",
-    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/TREE/BINARY SEARCH TREES/PROBLEM SET",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/GENERAL NOTES/LINKED LIST 1.4.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/GENERAL NOTES/LINKED LIST 1.3.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/GENERAL NOTES/LINKED LIST 1.2.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/LINKED LIST/GENERAL NOTES/LINKED LIST 1.1.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GRAPH.md",
+    "DAILY WORK/11-July-2025.md",
+    "Images/GRAPH 1.1-20250711122033160.webp",
+    "Images/GRAPH 1.1-20250711122003073.webp",
+    "Images/GRAPH 1.1-20250711121857655.webp",
+    "Images/GRAPH 1.1-20250711115508319.webp",
+    "Images/GRAPH 1.1-20250711114946303.webp",
+    "REVIEW/JULY 25/9.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/QUEUE/GENERAL NOTES/Queue 1.1.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/QUEUE/GENERAL NOTES/Queue 1.2.md",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/STACKS/GENERAL NOTES/STRIVER",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/STACKS/GENERAL NOTES/ADITYA VERMA",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET/Untitled",
+    "REVIEW/JULY 25",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET/LeetCode",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GRAPH/GRAPH 1.2",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GRAPH/Graph 1.1",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GRAPH",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/PROBLEM SET",
+    "DSA/DATA STRUCTURES & ALGORITHMS/Topics/GRAPH/GENERAL NOTES",
+    "Images/BinarySearch1-20250616220512247.webp",
     "Images/10. Bottom View of Binary Tree-20250109192114911.webp",
     "Images/11. Right-Left View of Binary Tree-20250109165057934.webp",
-    "Images/8. Vertical Order Traversal of Binary Tree(Imp)-20250109151218130.webp",
-    "Images/8. Vertical Order Traversal of Binary Tree(Imp)-20250109151200575.webp",
-    "Images/8. Vertical Order Traversal of Binary Tree(Imp)-20250109151136270.webp",
-    "Images/8. Vertical Order Traversal of Binary Tree-20250109115434606.webp",
-    "Images/Rabin-Karp String Matching Algorithm-20250109105610856.webp",
-    "Images/Rabin-Karp String Matching Algorithm-20250109105542754.webp",
-    "Images/Rabin-Karp String Matching Algorithm-20250109105400063.webp",
-    "Images/Rabin-Karp String Matching Algorithm-20250109104552861.webp",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -4,20 +4,35 @@ date_started:
 last_reviewed: 
 Time Spent:
 ---
-TAGS CAN BE - revise,important,easy
-**TAGS**:
+
+TAGS CAN BE - - `#easy`, `#medium`, `#hard` `#revisit`, `#wrong`, `#must-do`, `#mistake
+**TAGS**: #dsaproblem
 **CONCEPT:** [[]]
 
-PROBLEM LINK:
+
 ## Problem Statement
- Copy the problem statement here for quick reference.
+Statement-
+link-
 
+@@
 ## Approach / Thought Process
-1. **Initial Thoughts**: 
-   - Write down your initial understanding and ideas for solving this problem.
+## 🧠 Thought Process
 
-2. **Approach Options**:
-   - Describe any alternative approaches you considered.
+1. **What was asked?**
+   - [ ] Identify key input/output
+   - [ ] What type of problem is it?
+
+2. **What did I think at first?**
+
+
+
+3. **Other approaches I considered?**
+
+
+
+4. **Why I chose this approach?**
+
+
    
 ### BRUTE FORCE:
 TC:
