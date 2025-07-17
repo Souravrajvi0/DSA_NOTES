@@ -1,0 +1,17 @@
+Now We will talk about Input and Output Method!
+
+![A6EDD493-92FE-4B0A-9309-D4C600597CE3.png](../../../../../../Images/A6EDD493-92FE-4B0A-9309-D4C600597CE3.png)
+
+[https://www.naukri.com/code360/problems/subsequences-of-string_985087](https://www.naukri.com/code360/problems/subsequences-of-string_985087)
+
+  
+
+WRONG CODE→
+
+→IN RECURSION WE NEED TO EXPLORE THE WHOLE PATH FIRST AND IN THE END WE NEED TO MAKE A DECISION
+
+→ DON’T TRY TO MANIPLULATE VALUES PEHLE HI
+
+→ THAT WOULD ENTER MULTIPLE SAME ENTRIES
+
+→ PEHLE EK CHOICE PURI TRAVEL KAR LO , AND THEN TRY TO SOLVE OR GET WHATEVER YOU WANT
