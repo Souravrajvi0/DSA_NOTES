@@ -2,5 +2,7 @@
 
 ```
 
-Time Complexity: O()
-Space Complexity: O()
+| Complexity Type  | Value   |
+| ---------------- | ------- |
+| Time Complexity  | **O()** |
+| Space Complexity | **O()** |

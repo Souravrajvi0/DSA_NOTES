@@ -63,8 +63,10 @@ TC:
 ```
 
 ## Complexity Analysis
-- **Time Complexity**: 
-- **Space Complexity**: 
+| Complexity Type  | Value   |     |
+| ---------------- | ------- | --- |
+| Time Complexity  | **O()** |     |
+| Space Complexity | **O()** |     |
 
 ## Edge Cases
 List any edge cases you considered, such as:
