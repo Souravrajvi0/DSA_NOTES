@@ -348,4 +348,173 @@ public:
 |Space Complexity|**O(V + E)**|
 
 
+# ✅ Topological Sort in Directed Graph using **BFS (Kahn’s Algorithm)**
 
+## 💡 1. **Intuition**
+
+Topological sort is a **linear ordering of vertices** in a **Directed Acyclic Graph (DAG)** such that for every directed edge `u → v`, **`u` comes before `v`** in the ordering.
+
+> In short: You must finish `u` before `v` if there's an edge from `u` to `v`.
+> Think of it as a **dependency resolver** — where you must complete one task before starting another.
+---
+
+## 🧠 2. Core Logic (Kahn’s Algorithm)
+
+The idea is to simulate the process of “scheduling tasks”:
+
+- If a node has **no incoming edges (in-degree = 0)**, it can be processed first.
+    
+- Once a node is processed, reduce the in-degree of its neighbors (like finishing a task reduces dependencies).
+    
+- If a neighbor's in-degree becomes 0 → add it to queue.
+    
+
+Keep doing this until all nodes are processed.
+
+We process nodes in the order of their **in-degree = 0**:
+
+- These nodes have **no prerequisites** and can be safely added to the result
+    
+- Once a node is added, we **reduce the in-degree** of its neighbors (i.e., we’ve completed that task)
+    
+- If any neighbor’s in-degree becomes 0, it’s ready to be processed
+    
+
+Repeat until all nodes are processed.
+
+
+
+## ⚙️ 3. Algorithm Setup
+
+
+
+### 📥 Input
+
+- `V`: Number of nodes (0 to V-1)
+    
+- `edges`: Directed edges `u → v`
+    
+
+### 🔧 Structures
+
+- `adj[]`: adjacency list
+    
+- `indegree[]`: tracks incoming edges for each node
+    
+- `queue`: holds nodes with `indegree = 0`
+    
+- `result[]`: stores the final topological orde
+
+
+![GRAPH 1.3-20250717211615160.webp](../../../../../Images/GRAPH%201.3-20250717211615160.webp)
+
+![GRAPH 1.3-20250717211627554.webp](../../../../../Images/GRAPH%201.3-20250717211627554.webp)
+
+## 🔁 5. Dry Run
+
+### Initial Queue:
+
+Nodes with `indegree = 0`: `4`, `5`  
+Queue = `[4, 5]`
+
+### Result = `[]`
+
+### Process:
+
+1. Pop `4` → Result: `[4]`
+    
+    - 0 (in--), 1 (in--)
+        
+    - in[0] = 1, in[1] = 1
+        
+2. Pop `5` → Result: `[4, 5]`
+    
+    - 0 (in--), 2 (in--)
+        
+    - in[0] = 0, in[2] = 0
+        
+    - Queue += `[0, 2]`
+        
+3. Pop `0` → Result: `[4, 5, 0]`
+    
+4. Pop `2` → Result: `[4, 5, 0, 2]`
+    
+    - 3 (in--) → in[3] = 0 → Queue += `[3]`
+        
+5. Pop `3` → Result: `[4, 5, 0, 2, 3]`
+    
+    - 1 (in--) → in[1] = 0 → Queue += `[1]`
+        
+6. Pop `1` → Result: `[4, 5, 0, 2, 3, 1]`
+
+
+## 📌 7. Logic Summary
+
+| Step               | Explanation                         |
+| ------------------ | ----------------------------------- |
+| In-degree 0        | Means no dependency → process it    |
+| Decrease in-degree | Means one dependency is resolved    |
+| Node enters queue  | When all its prerequisites are done |
+| Cycle exists       | If final result has size < V        |
+
+## ⏱️ 8. Time & Space Complexity
+
+|Resource|Complexity|
+|---|---|
+|Time|O(V + E)|
+|Space|O(V + E)|
+|In-degree array|O(V)|
+|Queue|O(V)|
+|Adjacency list|O(V + E)|
+
+```c++
+class Solution {
+public:
+    vector<int> topoSort(int V, vector<vector<int>>& edges) {
+        vector<vector<int>> adj(V);
+        vector<int> indegree(V, 0);
+
+        // Build adjacency list and in-degree array
+        for (auto& edge : edges) {
+            int u = edge[0], v = edge[1];
+            adj[u].push_back(v);
+            indegree[v]++;
+        }
+
+        queue<int> q;
+        for (int i = 0; i < V; i++) {
+            if (indegree[i] == 0)
+                q.push(i);
+        }
+
+        vector<int> result;
+
+        while (!q.empty()) {
+            int node = q.front();
+            q.pop();
+            result.push_back(node);
+
+            for (int neighbor : adj[node]) {
+                indegree[neighbor]--;
+                if (indegree[neighbor] == 0)
+                    q.push(neighbor);
+            }
+        }
+
+        return result;
+    }
+};
+
+
+```
+
+
+
+## 🧠 7. Logic Summary
+
+| Step              | Meaning                                 |
+| ----------------- | --------------------------------------- |
+| `indegree = 0`    | Node has no dependencies                |
+| `q.push(i)`       | Node is ready to be scheduled           |
+| `indegree[nbr]--` | Process dependency                      |
+| `topo[]`          | Final sorted order (valid for DAG only) |
