@@ -12,13 +12,9 @@ A **cycle** in an undirected graph means:
 ### **Why BFS?**
 
 - BFS (Breadth-First Search) explores nodes **level by level**.
-    
-- In an **undirected graph**, a cycle exists **if you encounter a node that has already been visited and is NOT the parent of the current node.**
 ### 🎯 Key idea:
 
 > While doing BFS, if we visit an already visited node that is **not the parent** → **Cycle exists**.
-
-
 
 ## ✅ Algorithm
 
@@ -856,16 +852,16 @@ So reducing in-degree of adjacent nodes = removing a finished prerequisite from 
 
 ### 📊 Full Comparison Table
 
-|Feature|🟢 **Undirected - DFS**|🟢 **Undirected - BFS**|🔵 **Directed - DFS**|🔵 **Directed - Kahn's Algo (BFS)**|
-|---|---|---|---|---|
-|**Technique**|DFS with parent tracking|BFS with `{node, parent}` pairs|DFS with `visited[]` + `pathVisited[]`|BFS with Topological Sort (in-degree)|
-|**Cycle Condition**|Visited neighbor ≠ parent|Visited neighbor ≠ parent|If a node is visited again in the same DFS path|If topo sort doesn't include all `V` nodes|
-|**Data Structures**|`visited[]`, recursive stack|`visited[]`, queue|`visited[]`, `pathVisited[]`|`inDegree[]`, queue|
-|**Handles Disconnected?**|✅ Yes|✅ Yes|✅ Yes|✅ Yes|
-|**Time Complexity**|`O(V + E)`|`O(V + E)`|`O(V + E)`|`O(V + E)`|
-|**Space Complexity**|`O(V)`|`O(V)`|`O(V)`|`O(V)`|
-|**Code Style**|Recursive|Iterative|Recursive|Iterative|
-|**Use Case Preference**|Natural for DFS-heavy logic|Prefer BFS/queue style traversal|When recursion stack tracking is easy|When you're doing topological sort / checking DAG|
+| Feature                   | 🟢 **Undirected - DFS**      | 🟢 **Undirected - BFS**          | 🔵 **Directed - DFS**                           | 🔵 **Directed - Kahn's Algo (BFS)**               |
+| ------------------------- | ---------------------------- | -------------------------------- | ----------------------------------------------- | ------------------------------------------------- |
+| **Technique**             | DFS with parent tracking     | BFS with `{node, parent}` pairs  | DFS with `visited[]` + `pathVisited[]`          | BFS with Topological Sort (in-degree)             |
+| **Cycle Condition**       | Visited neighbor ≠ parent    | Visited neighbor ≠ parent        | If a node is visited again in the same DFS path | If topo sort doesn't include all `V` nodes        |
+| **Data Structures**       | `visited[]`, recursive stack | `visited[]`, queue               | `visited[]`, `pathVisited[]`                    | `inDegree[]`, queue                               |
+| **Handles Disconnected?** | ✅ Yes                        | ✅ Yes                            | ✅ Yes                                           | ✅ Yes                                             |
+| **Time Complexity**       | `O(V + E)`                   | `O(V + E)`                       | `O(V + E)`                                      | `O(V + E)`                                        |
+| **Space Complexity**      | `O(V)`                       | `O(V)`                           | `O(V)`                                          | `O(V)`                                            |
+| **Code Style**            | Recursive                    | Iterative                        | Recursive                                       | Iterative                                         |
+| **Use Case Preference**   | Natural for DFS-heavy logic  | Prefer BFS/queue style traversal | When recursion stack tracking is easy           | When you're doing topological sort / checking DAG |
 
 ---
 
@@ -923,3 +919,65 @@ So reducing in-degree of adjacent nodes = removing a finished prerequisite from 
 |❌ Not resetting pathVisited[] in DFS|Can mark nodes as cyclic incorrectly in directed DFS|`pathVis[node] = 0;` after DFS completes for the node|
 |❌ Self-loop missed|A node with edge to itself is always a cycle|Check for `if neighbor == node` in both DFS and BFS|
 |❌ In Kahn’s algo, assuming cycle if indegree=0 nodes exist|A few nodes with 0 indegree doesn’t imply no cycle|Need to process all nodes and compare `count == V` for a DAG|
+
+## 🧠 **Fundamental Cycle Detection Principle**
+
+> **A cycle is detected when a node is visited again through an alternate path _before completing its current path traversal_.**
+
+This concept applies **differently** depending on the **type of graph** (undirected vs directed) and the **traversal technique** (DFS vs BFS), but the **core idea is the same**:
+
+---
+
+### ✅ **1. A node is visited again through a non-parent route or while still in recursion path**
+
+|Graph Type|Traversal|Cycle Detected When...|
+|---|---|---|
+|**Undirected**|**DFS**|Visited neighbor ≠ parent|
+|**Undirected**|**BFS**|Visited neighbor ≠ parent|
+|**Directed**|**DFS**|Visited node is already on the current DFS path (`pathVis[node] == 1`)|
+|**Directed**|**BFS** (Kahn's)|Not all nodes are visited (some always have `indegree > 0`)|
+
+---
+
+### ✅ **2. We visit all components**
+
+> Always iterate over all nodes `i = 0 to V-1` to cover **disconnected components**, because cycles can hide in any of them.
+
+---
+
+### ✅ **3. A visitation mechanism is used to track the traversal**
+
+|Traversal|Visitation Tool Used|
+|---|---|
+|DFS|`vis[]` + `parent` or `pathVis[]`|
+|BFS|`vis[]` + parent in queue (undirected) or `indegree[]` (directed)|
+
+---
+
+### ✅ **4. Every method breaks early on cycle detection**
+
+All cycle detection methods stop traversal as soon as the cycle is detected:
+
+
+`if (cycle condition) return true;`
+
+This avoids unnecessary traversal after finding the cycle — a **key optimization**.
+
+---
+
+## 🔄 Summary Pattern Table
+
+|Graph Type|Method|Tracking|Cycle Condition|
+|---|---|---|---|
+|Undirected|DFS|`vis[]` + `parent`|`vis[neighbor] == 1 && neighbor != parent`|
+|Undirected|BFS|`vis[]` + `{node, parent}` queue|`vis[neighbor] == 1 && neighbor != parent`|
+|Directed|DFS|`vis[]`, `pathVis[]`|`vis[neighbor] == 1 && pathVis[neighbor] == 1`|
+|Directed|BFS (Kahn)|`inDegree[]`|`count of processed nodes != V`|
+
+---
+
+## 🧠 Pattern Recap in Plain Words
+
+> Whether you're using BFS or DFS, and whether it's an undirected or directed graph — you're trying to **spot when a node is revisited improperly**: either before the current traversal path finishes, or through a side-path that violates the parent-child relationship.
+
+This **"revisit detection"** is the **central pattern** across all algorithms.
