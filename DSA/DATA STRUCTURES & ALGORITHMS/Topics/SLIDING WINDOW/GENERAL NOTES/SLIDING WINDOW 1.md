@@ -1,14 +1,14 @@
   
 
-[LeetCode SLIDING WINDOW](./LeetCode%20SLIDING%20WINDOW/LeetCode%20SLIDING%20WINDOW.md)
+[LeetCode SLIDING WINDOW](LeetCode%20SLIDING%20WINDOW.md)
 
-[Sliding Window Algo 1.1](./Sliding%20Window%20Algo%201.1/Sliding%20Window%20Algo%201.1.md)
+[Sliding Window Algo 1.1](./Sliding%20Window%20Algo%201.1.md)
 
   
 
-[Sliding Window](../SLIDING%20WINDOW.md)
+[SLIDING WINDOW 1](SLIDING%20WINDOW%201.md)
 
-[Sliding Window 1.2](./Sliding%20Window%201.2/Sliding%20Window%201.2.md)
+[Sliding Window 1.2](./Sliding%20Window%201.2.md)
 
   
 

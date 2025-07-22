@@ -2,11 +2,11 @@
 
   
 
-![image 11.png](../../../../../../Images/image%2011.png)
+![image 11.png](../../../../../Images/image%2011.png)
 
-![image 1 4.png](../../../../../../Images/image%201%204.png)
+![image 1 4.png](../../../../../Images/image%201%204.png)
 
-![image 2 4.png](../../../../../../Images/image%202%204.png)
+![image 2 4.png](../../../../../Images/image%202%204.png)
 
 [https://leetcode.com/problems/subarray-sum-equals-k/description/](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 

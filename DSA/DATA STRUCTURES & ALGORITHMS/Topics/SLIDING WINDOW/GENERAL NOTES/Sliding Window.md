@@ -46,15 +46,15 @@ This is done by **maintaining a sliding window**, which is a **subarray of the
 
 # **FIXED SIZE**
 
-![image 8.png](../../../../../../Images/image%208.png)
+![image 8.png](../../../../../Images/image%208.png)
 
-![image 1 3.png](../../../../../../Images/image%201%203.png)
+![image 1 3.png](../../../../../Images/image%201%203.png)
 
-![image 2 3.png](../../../../../../Images/image%202%203.png)
+![image 2 3.png](../../../../../Images/image%202%203.png)
 
-![image 3 2.png](../../../../../../Images/image%203%202.png)
+![image 3 2.png](../../../../../Images/image%203%202.png)
 
-![image 4 2.png](../../../../../../Images/image%204%202.png)
+![image 4 2.png](../../../../../Images/image%204%202.png)
 
 **⇒ Window Size toh j-i+1 ho hoga na**
 
@@ -124,11 +124,11 @@ MY APPROACH
 
 ADITYA VERMA APPOACH
 
-![image 5 2.png](../../../../../../Images/image%205%202.png)
+![image 5 2.png](../../../../../Images/image%205%202.png)
 
 Total window bnti hai⇒ size-k+1
 
-![image 6 2.png](../../../../../../Images/image%206%202.png)
+![image 6 2.png](../../../../../Images/image%206%202.png)
 
 ```C++
 vector<long long> printFirstNegativeInteger(long long int A[],
@@ -196,7 +196,7 @@ int search(string pat, string txt) {
 
 ⇒ SLIDING WINDOW K ANDAR EK BAR MAINE NOTICE KI KOI SYSTEM HAI JISMEIN KUCH EK PART ADD HORA HAI AND EK PART REMOVE HORAHA HAI
 
-![image 7 2.png](../../../../../../Images/image%207%202.png)
+![image 7 2.png](../../../../../Images/image%207%202.png)
 
 ADITYA VERMA APPROACH( 4/9/24 ko choda hai jabh revise kare toh ye swal karna fir se)
 
@@ -206,11 +206,11 @@ Q→[https://leetcode.com/problems/sliding-window-maximum/description/](https://
 
 Is sawal ki khasbat ye hai ki abhi tak wo jo element add ya remove horahe the unse order/configuration system ka change nahi hora tha but yahan hora hai
 
-![image 8 2.png](../../../../../../Images/image%208%202.png)
+![image 8 2.png](../../../../../Images/image%208%202.png)
 
-![image 9.png](../../../../../../Images/image%209.png)
+![image 9.png](../../../../../Images/image%209.png)
 
-![image 10.png](../../../../../../Images/image%2010.png)
+![image 10.png](../../../../../Images/image%2010.png)
 
   
 

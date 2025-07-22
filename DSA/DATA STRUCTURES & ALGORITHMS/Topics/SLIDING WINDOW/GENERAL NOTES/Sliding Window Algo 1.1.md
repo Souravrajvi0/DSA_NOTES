@@ -39,7 +39,7 @@ To know, Where we use the Sliding Window then we remember the following terms wh
 
 Array, String, Sub Array, Sub String, Largest Sum, Maximum Sum, Minimum Sum
 
-![image 2.png](../../../../../../Images/image%202.png)
+![image 2.png](../../../../../Images/image%202.png)
 
 ⇒A **subarray** and a **substring** are both contiguous segments of an array or a string. Both must be contiguous, meaning there are no gaps in the sequence of elements or characters
 
@@ -49,23 +49,23 @@ Array, String, Sub Array, Sub String, Largest Sum, Maximum Sum, Minimum Sum
 
   
 
-![image 1 2.png](../../../../../../Images/image%201%202.png)
+![image 1 2.png](../../../../../Images/image%201%202.png)
 
 **⇒ BRUTE FORCE**
 
 → TC⇒ O(N^2)
 
-![image 2 2.png](../../../../../../Images/image%202%202.png)
+![image 2 2.png](../../../../../Images/image%202%202.png)
 
 **⇒ SLIDING WINDOW ALGORITHM**
 
-![image 3.png](../../../../../../Images/image%203.png)
+![image 3.png](../../../../../Images/image%203.png)
 
-![image 4.png](../../../../../../Images/image%204.png)
+![image 4.png](../../../../../Images/image%204.png)
 
   
 
-![image 5.png](../../../../../../Images/image%205.png)
+![image 5.png](../../../../../Images/image%205.png)
 
 ⇒ TC-O(N)
 
@@ -73,9 +73,9 @@ Array, String, Sub Array, Sub String, Largest Sum, Maximum Sum, Minimum Sum
 
 [https://leetcode.com/problems/grumpy-bookstore-owner/submissions/1377479304/](https://leetcode.com/problems/grumpy-bookstore-owner/submissions/1377479304/)
 
-![image 6.png](../../../../../../Images/image%206.png)
+![image 6.png](../../../../../Images/image%206.png)
 
-![image 7.png](../../../../../../Images/image%207.png)
+![image 7.png](../../../../../Images/image%207.png)
 
   
 
